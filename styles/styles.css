@@ -5,7 +5,9 @@ p {
     
 }
 
-
+.introtest {
+    text-align: center;
+}
 
 .introtest {
     flex-direction: column;
