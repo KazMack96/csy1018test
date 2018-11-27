@@ -76,6 +76,7 @@ nav {
     background-color: lightgreen;
     font-size: 1.1em;
     transition: all 0.22s ease-out;
+    font-style: oblique;
   }
   
   li:last-child {
