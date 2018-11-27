@@ -31,19 +31,20 @@ p{
 
 .logo{
     float:right;
-    order: 2;
+    order: 8;
+    margin: 0.6em;
 }
+.websiteheader{
+    background-color: darkgreen;
+    height: 5em;
+}
+
 
 .navbar {
     background-color: white;
     background-color: #444;
 }
   
-
-.websiteheader{
-    background-color: darkgreen;
-    height: 4.2em;
-}
 
 
 nav {
@@ -103,8 +104,8 @@ li.active a{
     background-color: darkslategrey;
 }
 
-.short-title {
+
+.site-title {
     text-align: center;
     flex-direction: column;
 }
-
