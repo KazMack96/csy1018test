@@ -4,3 +4,8 @@ p {
     border: 2px;
     
 }
+
+.introtest {
+    flex-direction: column;
+    float: left;
+}
