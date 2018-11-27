@@ -26,18 +26,20 @@ p {
 
 .navbar {
     background-color: white;
+    background-color: #444;
+}
   
-  }
-  
+.titlebar {
+    background-color: seagreen;
+}
 
-  nav {
+nav {
     float: right;
     margin: 30px;
     display: flex;
     flex-direction: row;
     text-align: center;
-    background-color: #444;
-  }
+}
   
   ul a:hover {
     text-transform: height 1.2em, width 1.2em;
