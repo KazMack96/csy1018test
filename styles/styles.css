@@ -1,3 +1,22 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin: 0;
+    color: #444;
+}
+
 p {
     font-size: 2em;
     text-align: center;
@@ -5,12 +24,67 @@ p {
     
 }
 
-.introtest {
-    
+.navbar {
+    background-color: white;
+  
+  }
+  
+  nav {
+    float: inherit;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
     text-align: center;
-}
-
-.introtest {
-    flex-direction: column;
+  }
+  
+  ul a:hover {
+    text-transform: height 1.2em, width 1.2em;
+    transition: all 0.35s ease-in-out;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    text-align: center;
+    transition: all 0.22s ease-out;
+  }
+  
+  li {
+    height: 25px;
     float: left;
+    margin-right: 10px;
+    border-right: 4px solid #eee;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: yellowgreen;
+    font: 1em/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5em ease;
+    
+  }
+  
+  li a:hover{
+    color: lawngreen;
+    background-color: lightgreen;
+    font-size: 1.1em;
+    transition: all 0.22s ease-out;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li.active a{
+    font-weight: bold;
+    font-size: 1.5em/1, Verdana, Helvetica, sans-serif;
+    background-color: darkslategrey;
+  }
+
+.shorttitle {
+    text-align: center;
+    flex-direction: column;
 }
