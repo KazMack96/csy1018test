@@ -18,10 +18,15 @@ body {
 }
 
 p {
-    font-size: 2em;
-    text-align: center;
-    border: 2px;
+    font-size: 0.2em;
+    text-align: justify;
+    margin: 0.8em;
     
+}
+
+.box {
+    float: right;
+    text-align: justify;
 }
 
 .navbar {
