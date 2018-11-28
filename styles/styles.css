@@ -43,6 +43,9 @@ p{
 .navbar {
     background-color: white;
     background-color: #444;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }
   
 
@@ -51,10 +54,7 @@ nav {
     float: right;
     margin: 30px;
     display: flex;
-    align-content: center;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
+    
 }
   
 ul a:hover {
