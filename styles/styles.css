@@ -30,8 +30,8 @@ p{
 }
 
 .logo{
-    border: 1em;
-    margin: 2.6em;
+    border: 12px;
+    border
     
 }
 
@@ -44,9 +44,6 @@ p{
 .navbar {
     background-color: white;
     background-color: #444;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
 }
   
 
@@ -55,7 +52,9 @@ nav {
     float: right;
     margin: 30px;
     display: flex;
-    
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
 }
   
 ul a:hover {
@@ -113,15 +112,8 @@ li.active a{
     align-content: center;
     float: right;
     text-emphasis: uppercase;
-}
+    font-weight: bold;
 
-.breaker-box {
-    display: flex;
-    flex-grow: initial;
-    flex-flow: row;
-    height: 1.2em;
-    background-color: darkslategrey;
-    text-align: center;
 }
 
 .centraltext {
@@ -132,6 +124,7 @@ li.active a{
     height: 2em;
     display: flex;
     flex-direction: column;
+    column-count: 3;
     align-items: center;
     color: white;    
 }
@@ -144,7 +137,7 @@ li.active a{
 
 
 /*
-.mainarticle-1 {
+.mainarticle {
         position: relative;
         margin:	auto;
         width:	75%;
@@ -157,3 +150,13 @@ li.active a{
         column-rule: 2px dotted #ccc;
 }
 */
+
+.footer {
+  display: flex;
+    flex-grow: initial;
+    flex-flow: row;
+    height: 7em;
+    background-color: greenyellow;
+    color: darkseagreen;
+    text-align: center;
+}
