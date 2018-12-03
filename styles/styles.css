@@ -29,13 +29,12 @@ p{
     text-align: center;
 }
 
-.logo{
-    border: 12px;
-    border
+.logo {
+    margin: 1.2em;
     
 }
 
-.websiteheader{
+.websiteheader {
     background-color: darkgreen;
     height: 5em;
 }
@@ -116,6 +115,20 @@ li.active a{
 
 }
 
+
+.mainarticle {
+        position: relative;
+        margin:	auto;
+        width:	75%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 25px;
+        padding-bottom: 2em;
+        column-count: 4;
+        column-gap: 2em;	
+        column-rule: 2px dotted hsl(120, 100%, 34%);
+}
+
 .centraltext {
     text-align: center;
     font-size: 0.9em;
@@ -134,22 +147,6 @@ li.active a{
     font-weight: bold;
 }
 
-
-
-/*
-.mainarticle {
-        position: relative;
-        margin:	auto;
-        width:	75%;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 25px;
-        padding-bottom: 2em;
-        column-count: 4;
-        column-gap: 2em;	
-        column-rule: 2px dotted #ccc;
-}
-*/
 
 .footer {
   display: flex;
