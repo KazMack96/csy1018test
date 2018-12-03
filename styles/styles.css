@@ -115,8 +115,8 @@ li.active a{
 
 }
 
-
-.mainarticle {
+@media (max-width: 300em){
+    .mainarticle {
         position: relative;
         margin:	auto;
         width:	75%;
@@ -127,20 +127,56 @@ li.active a{
         column-count: 3;
         column-gap: 2em;	
         column-rule: 2px dotted hsl(120, 100%, 34%);
+    }
+    .articlesection {
+        position: relative;
+        margin:	auto;
+        width:	75%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 25px;
+        padding-bottom: 2em;
+        column-count: 3;
+        column-gap: 2em;	
+        column-rule: 2px dotted hsl(120, 100%, 34%);
+    }
+    
+    .article-col1 {
+        position: relative;
+        margin:	auto;
+        width:	75%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 25px;
+        padding-bottom: 2em;
+        column-gap: 2em;	
+        column-rule: 2px dotted hsl(120, 100%, 34%);
+    }
+
+    .article-center {
+        position: relative;
+        margin:	auto;
+        width:	75%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 25px;
+        padding-bottom: 2em;
+        column-gap: 2em;	
+        column-rule: 2px dotted hsl(120, 100%, 34%);
+    }
 }
 
-@media (max-width: 300em){
-    .articlesection {
-    position: relative;
-    margin:	auto;
-    width:	75%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 25px;
-    padding-bottom: 2em;
-    column-count: 3;
-    column-gap: 2em;	
-    column-rule: 2px dotted hsl(120, 100%, 34%);
+    .article-col2 {
+        position: relative;
+        margin:	auto;
+        float: right;
+        width:	75%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 25px;
+        padding-bottom: 2em;
+        column-gap: 2em;	
+        column-rule: 2px dotted hsl(120, 100%, 34%);
     }
 }
 @media (min-width: 150em){
@@ -156,6 +192,15 @@ li.active a{
         column-gap: 0.8em;	
         column-rule: 2px dotted hsl(120, 100%, 34%);
     }
+    .article-col1{
+
+    }
+    .article-center{
+
+    }
+    .article-col2{
+
+    }
 }
 @media (min-width: 90em){
     .articlesection {
@@ -170,46 +215,19 @@ li.active a{
     column-gap: 0.1em;	
     column-rule: 2px dotted hsl(120, 100%, 34%);
     }
+    .article-col1{
+
+    }
+    .article-center{
+
+    }   
+    .article-col2{
+        
+    }
 }
 
 
-.article-col1 {
-    position: relative;
-    margin:	auto;
-    width:	75%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 25px;
-    padding-bottom: 2em;
-    column-gap: 2em;	
-    column-rule: 2px dotted hsl(120, 100%, 34%);
-}
 
-.article-center {
-    position: relative;
-    margin:	auto;
-    width:	75%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 25px;
-    padding-bottom: 2em;
-    column-gap: 2em;	
-    column-rule: 2px dotted hsl(120, 100%, 34%);
-}
-}
-
-.article-col2 {
-    position: relative;
-    margin:	auto;
-    float: right;
-    width:	75%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 25px;
-    padding-bottom: 2em;
-    column-gap: 2em;	
-    column-rule: 2px dotted hsl(120, 100%, 34%);
-}
 
 .centraltext {
     text-align: center;
