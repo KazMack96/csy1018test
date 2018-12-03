@@ -80,19 +80,19 @@ li {
   
 li a {
     text-decoration: none;
-    color: yellowgreen;
+    color: rgba(255, 255, 255, 0.678);
     font: 1em/1 Helvetica, Verdana, sans-serif;
     text-transform: uppercase;
-    transition: all 0.5em ease;
-    
+    font-weight: normal;
+    transition: all 0.27s ease-out;
 }
   
 li a:hover{
     color: lawngreen;
     background-color: #444;
-    font-size: 1.2em;
-    transition: all 0.22s ease-out;
     font-weight: bolder;
+    transition: all 0.27s ease-in;
+    font: 1em/1 Helvetica, Verdana, sans-serif;
 }
   
 li:last-child {
@@ -101,7 +101,8 @@ li:last-child {
   
 li.active a{
     font-weight: bold;
-    font-size: 1.5em/1, Verdana, Helvetica, sans-serif;
+    color: lawngreen;
+    font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
     background-color: darkslategrey;
 }
 
@@ -118,6 +119,7 @@ li.active a{
 }
 
 @media (max-width: 300px){
+    
     .mainarticle {
         flex: 1 0 auto;
         margin:	auto;
@@ -181,7 +183,7 @@ li.active a{
     }
 }
 
-@media (max-width: 150px){
+@media (max-width: 990px){
     .articlesection {
         position: relative;
         margin:	auto;
@@ -194,6 +196,10 @@ li.active a{
         column-gap: 0.8em;	
         column-rule: 2px dotted hsl(120, 100%, 34%);
     }
+    .websiteheader {
+        height: 8em;
+    }
+
     .article-col1{
 
     }
@@ -204,7 +210,7 @@ li.active a{
 
     }
 }
-@media (max-width: 90px){
+@media (max-width: 635px){
     .articlesection {
     position: relative;
     margin:	auto;
@@ -217,6 +223,10 @@ li.active a{
     column-gap: 0.1em;	
     column-rule: 2px dotted hsl(120, 100%, 34%);
     }
+    .websiteheader {
+        height: 9.5em;
+    }
+
     .article-col1{
 
     }
