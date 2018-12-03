@@ -109,13 +109,13 @@ li.active a{
 
 
 .site-title {
-    color: palegoldenrod;
+    color: black;
     text-align: center;
     align-content: center;
     float: right;
     text-emphasis: uppercase;
-    font-weight: bold;
-
+    font-weight: bolder;
+    padding-top: 0.5em;
 }
 
 @media (max-width: 300px){
