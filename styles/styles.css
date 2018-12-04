@@ -127,10 +127,17 @@ li.active a{
     flex-direction: row;
     padding: 1em;
 }
+.article-title {
+    width: 100%;
+}
 
 .article-col{
     width: calc(100%/3);
     flex-direction: column;
+}
+
+.article-col > article{
+    
     padding: 12px;
     border-radius: 6px;
     background-color: aliceblue;
