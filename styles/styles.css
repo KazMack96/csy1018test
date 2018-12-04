@@ -39,18 +39,21 @@ p{
 
 .websiteheader {
     background-color: darkgreen;
-    height: 5em;
+    height: 6em;
+    margin-top: -20px;
+    border-radius: 8px;
 }
 
 
 .navbar {
     background-color: white;
     background-color: #444;
+
 }
 
 nav {
     float: right;
-    margin: 30px;
+    margin: 25px;
     display: flex;
     align-content: center;
     flex-direction: row;
@@ -118,6 +121,44 @@ li.active a{
     padding-top: 0.5em;
 }
 
+
+.articlesection{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.article-col{
+    width: calc(100%/3);
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: aliceblue;
+}
+
+/* @media (max-width: 990px){
+    .articlesection {
+        position: relative;
+        margin:	auto;
+        width:	60%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 20px;
+        padding-bottom: 2em;
+        column-count: 2;
+        column-gap: 0.8em;	
+        column-rule: 2px dotted hsl(120, 100%, 34%);
+    }
+    .websiteheader {
+        height: 8em;
+    }
+
+    .article-col{
+        content: 'NOT YET READY';
+    }
+    }
+}
+
 @media (max-width: 300px){
     
     .mainarticle {
@@ -183,33 +224,6 @@ li.active a{
     }
 }
 
-@media (max-width: 990px){
-    .articlesection {
-        position: relative;
-        margin:	auto;
-        width:	60%;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-top: 20px;
-        padding-bottom: 2em;
-        column-count: 2;
-        column-gap: 0.8em;	
-        column-rule: 2px dotted hsl(120, 100%, 34%);
-    }
-    .websiteheader {
-        height: 8em;
-    }
-
-    .article-col1{
-
-    }
-    .article-center{
-
-    }
-    .article-col2{
-
-    }
-}
 @media (max-width: 635px){
     .articlesection {
     position: relative;
@@ -228,15 +242,58 @@ li.active a{
     }
 
     .article-col1{
-
+        content: 'NOT YET READY';
     }
     .article-center{
-
-    }   
+        content: 'NOT YET READY';
+    }
     .article-col2{
+        content: 'NOT YET READY';
+    }
+} */
+
+
+    .flexarticle {
+        display: flex;
+        align-items: center;
+    }
+
+    .reviews-title {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-self: center;
+        flex: 1 0 auto;
+        padding: 0.8em;
+        color: darkcyan;
+        background: lightgray;
+        text-align: center;
+        font-stretch: semi-expanded;
+        font-weight: bold;
         
     }
-}
+    .review-1{
+        display: flex;
+        justify-content: left;
+        width: 20em;
+        padding: 1em;
+    }
+    .flex-content1 {
+        text-align: justify;
+        text-indent: 2%;
+    }
+
+    .review-2{
+        display: flex;
+        justify-content: right;
+        width: 20em;
+        padding: 1em;
+    }
+    .flex-content2 {
+        text-align: justify;
+        text-indent: 2%;
+    }
+
 
 
 
