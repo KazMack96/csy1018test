@@ -38,7 +38,7 @@ p{
 }
 
 .websiteheader {
-    background-color: darkgreen;
+    background-color: cornflowerblue;
     height: 6em;
     margin-top: -20px;
     border-radius: 8px;
@@ -91,7 +91,7 @@ li a {
 }
   
 li a:hover{
-    color: lawngreen;
+    color: skyblue;
     background-color: #444;
     font-weight: bolder;
     transition: all 0.27s ease-in;
@@ -104,7 +104,7 @@ li:last-child {
   
 li.active a{
     font-weight: bold;
-    color: lawngreen;
+    color: skyblue;
     font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
     background-color: darkslategrey;
 }
@@ -143,138 +143,22 @@ li.active a{
     background-color: aliceblue;
 }
 
-/* @media (max-width: 990px){
-    .articlesection {
-        position: relative;
-        margin:	auto;
-        width:	60%;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-top: 20px;
-        padding-bottom: 2em;
-        column-count: 2;
-        column-gap: 0.8em;	
-        column-rule: 2px dotted hsl(120, 100%, 34%);
-    }
-    .websiteheader {
-        height: 8em;
-    }
-
-    .article-col{
-        content: 'NOT YET READY';
-    }
-    }
-}
-
-@media (max-width: 300px){
-    
-    .mainarticle {
-        flex: 1 0 auto;
-        margin:	auto;
-        border: aqua, dotted, 5px;
-        width:	75%;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 25px;
-        padding-bottom: 2em;
-        column-count: 3;
-        column-gap: 2em;	
-        column-rule: 2px dotted hsl(120, 100%, 34%);
-    }
-    .articlesection {
-        position: relative;
-        margin:	auto;
-        width:	75%;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 25px;
-        padding-bottom: 2em;
-        column-count: 3;
-        column-gap: 2em;	
-        column-rule: 2px dotted hsl(120, 100%, 34%);
-    }
-    
-    .article-col1 {
-        position: relative;
-        margin:	auto;
-        width:	75%;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 25px;
-        padding-bottom: 2em;
-        column-gap: 2em;	
-        column-rule: 2px dotted hsl(120, 100%, 34%);
-    }
-
-    .article-center {
-        position: relative;
-        margin:	auto;
-        width:	75%;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 25px;
-        padding-bottom: 2em;
-        column-gap: 2em;	
-        column-rule: 2px dotted hsl(120, 100%, 34%);
-    }
-    .article-col2 {
-        position: relative;
-        margin:	auto;
-        float: right;
-        width:	75%;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 25px;
-        padding-bottom: 2em;
-        column-gap: 2em;	
-        column-rule: 2px dotted hsl(120, 100%, 34%);
-    }
-}
-
-@media (max-width: 635px){
-    .articlesection {
-    position: relative;
-    margin:	auto;
-    width:	50%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-top: 12.5px;
-    padding-bottom: 2em;
-    column-count: 1;
-    column-gap: 0.1em;	
-    column-rule: 2px dotted hsl(120, 100%, 34%);
-    }
-    .websiteheader {
-        height: 9.5em;
-    }
-
-    .article-col1{
-        content: 'NOT YET READY';
-    }
-    .article-center{
-        content: 'NOT YET READY';
-    }
-    .article-col2{
-        content: 'NOT YET READY';
-    }
-} */
-
-
     .flexarticle {
         display: flex;
         align-items: center;
     }
 
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+    }
     .reviews-title {
-        display: flex;
         flex-direction: row;
-        align-content: center;
-        align-self: center;
+        flex-wrap: wrap;
         flex: 1 0 auto;
         padding: 0.8em;
         color: darkcyan;
         background: lightgray;
-        text-align: center;
         font-stretch: semi-expanded;
         font-weight: bold;
         
@@ -287,7 +171,7 @@ li.active a{
     }
     .flex-content1 {
         text-align: justify;
-        text-indent: 2%;
+        
     }
 
     .review-2{
@@ -298,7 +182,7 @@ li.active a{
     }
     .flex-content2 {
         text-align: justify;
-        text-indent: 2%;
+        
     }
 
 
@@ -324,17 +208,18 @@ li.active a{
 }
 
 .copyright {
-    display: flex;
-    align-content: right;
-    justify-items: center;
+    justify-content: right;
+    font-size: 0.55em;
+
 }
 
 .footer {
-  display: flex;
-    flex-grow: initial;
-    flex-flow: row;
-    height: 7em;
-    background-color: greenyellow;
-    color: darkseagreen;
-    text-align: center;
+    height: 3.5em;
+    background-color: steelblue;
+    color: aliceblue;
+    justify-content: center;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 2.5em;
+    border-radius: 0.5em;
 }
