@@ -24,17 +24,14 @@ p{
     font-size: 0.7em;
     text-align: Justify;
     margin: 0.8em;
-    
+    padding: 0.1em;
 }
 
 h3 {
     text-align: center;
 }
 
-.box {
-    float: right;
-    text-align: center;
-}
+
 
 .logo {
     margin: 1.2em;
@@ -150,6 +147,7 @@ li.return a:hover {
 .article-col{
     width: calc(100%/3);
     flex-direction: column;
+    padding: 0.2em;
 }
 
 .article-col > article{
@@ -175,24 +173,27 @@ li.return a:hover {
     flex-wrap: wrap;
     flex: 1 0 auto;
     padding: 1em;
-    margin-top: -0.8em;
-    color: lightskyblue;
-    background: slategray;
+    margin-top: -1.8em;
+    color: lightblue;
+    background: darkslategray;
     font-stretch: semi-expanded;
     font-weight: bold;
     text-align: center;
+    border-radius: 8px;
 }
 .front-page {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 1 0 auto;
-    margin-top: 0.5em;
-    padding-bottom: 1.4em;
+    margin-top: -0.3em;
+    padding-bottom: 1.2em;
+    padding-top: 0.5em;
     color: darkcyan;
     background: lightgray;
     font-stretch: semi-expanded;
     font-weight: bold;
-    
+    border-radius: 15px;
+
 }
 
 
