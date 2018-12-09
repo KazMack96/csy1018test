@@ -113,14 +113,17 @@ li.active a{
     background-color: darkslategrey;
 }
 li.return a{
-    font-style: italic;
-    color: rgb(14, 126, 231);
-    font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
-    background-color: darkslateblue;
+    font-style: normal;
+    color: lightgrey;
+    font-size: 1em, "Poor Story", cursive;
+    background-color: darkslategray;
+    transition: all 1.95s ease-out;
 }
 li.return a:hover {
     font-weight:  bold;
-    font-size: 1.5em/1, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.4em, Helvetica, sans-serif;
+    transition: all 1.9s ease-in;
 }
 
 
@@ -128,7 +131,7 @@ li.return a:hover {
     color: black;
     text-align: center;
     align-content: center;
-    float: right;
+    margin-top: -1.5em;
     text-emphasis: uppercase;
     font-weight: bolder;
     padding-top: 0.5em;
@@ -156,47 +159,47 @@ li.return a:hover {
     background-color: aliceblue;
 }
 
-    .flexarticle {
-        display: flex;
-        align-items: center;
-    }
+.flexarticle {
+    display: flex;
+    align-items: center;
+}
 
-    h2 {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-align: center;
-    }
-    .reviews-title {
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex: 1 0 auto;
-        padding: 0.8em;
-        color: darkcyan;
-        background: lightgray;
-        font-stretch: semi-expanded;
-        font-weight: bold;
-        
-    }
-    .review-1{
-        display: flex;
-        justify-content: left;
-        width: 20em;
-        padding: 1em;
-    }
-    .flex-content1 {
-        text-align: justify;
-        
-    }
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.reviews-title {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    padding: 0.8em;
+    color: darkcyan;
+    background: lightgray;
+    font-stretch: semi-expanded;
+    font-weight: bold;
+    
+}
+.review-1{
+    display: flex;
+    justify-content: left;
+    width: 20em;
+    padding: 1em;
+}
+.flex-content1 {
+    text-align: justify;
+    
+}
 
-    .review-2{
-        display: flex;
-        justify-content: right;
-        width: 20em;
-        padding: 1em;
-    }
-    .flex-content2 {
-        text-align: justify;
-        
-    }
+.review-2{
+    display: flex;
+    justify-content: right;
+    width: 20em;
+    padding: 1em;
+}
+.flex-content2 {
+    text-align: justify;
+    
+}
 
 
 
