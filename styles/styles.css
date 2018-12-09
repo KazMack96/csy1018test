@@ -27,6 +27,10 @@ p{
     
 }
 
+h3 {
+    text-align: center;
+}
+
 .box {
     float: right;
     text-align: center;
@@ -108,7 +112,16 @@ li.active a{
     font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
     background-color: darkslategrey;
 }
-
+li.return a{
+    font-style: italic;
+    color: rgb(14, 126, 231);
+    font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
+    background-color: darkslateblue;
+}
+li.return a:hover {
+    font-weight:  bold;
+    font-size: 1.5em/1, Helvetica, sans-serif;
+}
 
 
 .site-title {
