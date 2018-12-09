@@ -1,7 +1,6 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
-@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
 
 * {
     margin: 0;
@@ -174,8 +173,8 @@ li.return a:hover {
     flex: 1 0 auto;
     padding: 1em;
     margin-top: -1.8em;
-    color: lightblue;
-    background: darkslategray;
+    color: darkslategray;
+    background: lightskyblue;
     font-stretch: semi-expanded;
     font-weight: bold;
     text-align: center;
@@ -185,10 +184,10 @@ li.return a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 1 0 auto;
-    margin-top: -0.3em;
+    margin-top: 0.5em;
     padding-bottom: 1.2em;
     padding-top: 0.5em;
-    color: darkcyan;
+    color: darkslategray;
     background: lightgray;
     font-stretch: semi-expanded;
     font-weight: bold;
@@ -196,6 +195,9 @@ li.return a:hover {
 
 }
 
+.central-align {
+    text-align: center;
+}
 
 
 .flexarticle {
@@ -218,27 +220,7 @@ h2 {
     font-weight: bold;
     
 }
-.review-1{
-    display: flex;
-    justify-content: left;
-    width: 20em;
-    padding: 1em;
-}
-.flex-content1 {
-    text-align: justify;
-    
-}
 
-.review-2{
-    display: flex;
-    justify-content: right;
-    width: 20em;
-    padding: 1em;
-}
-.flex-content2 {
-    text-align: justify;
-    
-}
 
 
 
@@ -263,6 +245,7 @@ h2 {
 }
 
 .copyright {
+    
     font-size: 0.55em;
     align-content: space-between;
     flex-direction: row;
