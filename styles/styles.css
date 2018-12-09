@@ -43,14 +43,14 @@ h3 {
 
 .logo {
     margin: 1.2em;
-
+    border-radius: 2em;
 }
 
 .websiteheader {
     background-color: #0077c2;
-    
-    height: 6em;
-    margin-top: -20px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    height: 5em;
+    margin-top: -10px;
     border-radius: 8px;
 }
 
@@ -58,10 +58,21 @@ h3 {
     color: #FFF;
     text-align: center;
     align-content: center;
-    margin-top: -1.5em;
-    text-emphasis: uppercase;
-    font-weight: bolder;
-    padding-top: -1.5em;
+    margin-top: -4em;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+@media (min-width:75em) {
+    .site-title {
+        color: #FFF;
+        text-align: center;
+        align-content: center;
+        margin-top: -3.6em;
+        font-size: 2.2em;
+        margin-left: 0.5em;
+    }
 }
 
 .front-page {
@@ -88,14 +99,14 @@ h3 {
     color: #fff;
     background: #63a4ff;
     font-stretch: semi-expanded;
-    
+
     text-align: center;
     border-radius: 8px;
 }
 
 
 .navbar {
-    background-color: #757575;
+    background-color: #8c8c8c;
 
 }
 
@@ -139,11 +150,17 @@ li a {
 }
 
 li a:hover {
-    color: #bcbcbc;
-    background-color: #eeeeee;
+    color: #000;
+    background-color: #80d6ff;
     font-weight: bolder;
     transition: all 0.27s ease-in;
     font: 1em/1 Helvetica, Verdana, sans-serif;
+}
+
+li.active a:hover {
+    color: #000;
+    background-color: #80d6ff;
+
 }
 
 li:last-child {
@@ -152,16 +169,16 @@ li:last-child {
 
 li.active a {
     font-weight: bold;
-    color: #494949;
+    color: #000;
     font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
-    background-color: #a4a4a4;
+    background-color: #eee;
 }
 
 li.return a {
     font-style: normal;
-    color: lightgrey;
+    color: #80d6ff;
     font-size: 1em, "Poor Story", cursive;
-    background-color: #a4a4a4;
+    background-color: #8c8c8c;
     transition: all 1.95s ease-out;
 }
 
@@ -180,6 +197,7 @@ li.return a:hover {
     display: flex;
     flex-direction: row;
     padding: 1em;
+    border-radius: 1em;
 }
 
 .article-title {
@@ -196,7 +214,7 @@ li.return a:hover {
 
     padding: 12px;
     border-radius: 6px;
-    background-color: aliceblue;
+    background-color: #eee;
 }
 
 
@@ -206,6 +224,7 @@ li.return a:hover {
     align-content: center;
     padding: 1em;
     padding-top: -2.5em;
+    border-radius: 1em;
 }
 
 .title-col {
@@ -213,7 +232,8 @@ li.return a:hover {
     flex-direction: column;
     margin: 0.2em;
     padding: 5px;
-   
+    border-radius: 0.5em;
+    background-color: #eee;
 }
 
 
@@ -233,10 +253,10 @@ h2 {
     flex: 1 0 auto;
     padding: 0.8em;
     color: white;
-    background: #1976d2;
+    background: #0077c2;
     font-stretch: semi-expanded;
     font-weight: bold;
-
+    border-radius: 0.25em;
 }
 
 
@@ -266,17 +286,24 @@ h2 {
 
     font-size: 0.55em;
     align-content: space-between;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
 }
 
 .footer {
     height: 3.5em;
+    width: auto;
+    display: flex;
     background-color: #8c8c8c;
     color: white;
-    justify-content: center;
+    justify-content: flex-end;
+    align-content: space-around;
+    align-items: flex-start;
     margin: 0;
-    padding: 15px;
-    border-bottom: 2.5em;
+    border: 0;
+    padding-top: 1em;
+    padding-bottom: -1em;
     border-radius: 0.5em;
+    border-bottom-right-radius: 0em;
+    border-bottom-left-radius: 0em;
 }
