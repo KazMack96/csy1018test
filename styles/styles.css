@@ -159,6 +159,44 @@ li.return a:hover {
     background-color: aliceblue;
 }
 
+
+.titlesection{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 1em;
+}
+.title-col{
+    width: calc(100%/2);
+    flex-direction: column;
+}
+.subtitle {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    padding: 1em;
+    margin-top: -0.8em;
+    color: lightskyblue;
+    background: slategray;
+    font-stretch: semi-expanded;
+    font-weight: bold;
+    text-align: center;
+}
+.front-page {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    margin-top: 0.5em;
+    padding-bottom: 1.4em;
+    color: darkcyan;
+    background: lightgray;
+    font-stretch: semi-expanded;
+    font-weight: bold;
+    
+}
+
+
+
 .flexarticle {
     display: flex;
     align-items: center;
