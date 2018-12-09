@@ -1,25 +1,34 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Saira+Extra+Condensed');
+/*used @import because it applies the fonts to all the HTML pages without cluttering the pages - this is a font pairing from fonts.google.com*/
+
+/*Here is the colour scheme for this document: https://material.io/tools/color/#!/?view.left=1&view.right=0&primary.color=42A5F5&secondary.color=BDBDBD
+
+Variants checked with Google Material Design(GMD) link above.
+
+Accessibility Check GMD:  Primary Normal can have B&W text, Light can only have black text, vice versa for the Dark.  Secondary colour only uses black.
+
+*/
 
 
 * {
     margin: 0;
     padding: 0;
-  }
-  
+}
+
 body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 5px;
     font-size: 18px;
     color: #444;
-    
+
 }
 
-p{
+p {
     font-size: 0.7em;
     text-align: Justify;
     margin: 0.8em;
@@ -34,20 +43,59 @@ h3 {
 
 .logo {
     margin: 1.2em;
-    
+
 }
 
 .websiteheader {
-    background-color: cornflowerblue;
+    background-color: #0077c2;
+    
     height: 6em;
     margin-top: -20px;
     border-radius: 8px;
 }
 
+.site-title {
+    color: #FFF;
+    text-align: center;
+    align-content: center;
+    margin-top: -1.5em;
+    text-emphasis: uppercase;
+    font-weight: bolder;
+    padding-top: -1.5em;
+}
+
+.front-page {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    margin-top: 0.5em;
+    padding-bottom: 1.2em;
+    padding-top: 0.5em;
+    color: #000;
+    background: #a4a4a4;
+    font-stretch: semi-expanded;
+    font-weight: bold;
+    border-radius: 15px;
+
+}
+
+.subtitle {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    padding: 1em;
+    margin-top: -1.8em;
+    color: #fff;
+    background: #63a4ff;
+    font-stretch: semi-expanded;
+    
+    text-align: center;
+    border-radius: 8px;
+}
+
 
 .navbar {
-    background-color: white;
-    background-color: #444;
+    background-color: #757575;
 
 }
 
@@ -59,19 +107,19 @@ nav {
     flex-direction: row;
     text-align: center;
 }
-  
+
 ul a:hover {
     text-transform: height 0.8em, width 1.2em;
     transition: all 0.35s ease-in-out;
-    
-  }
-  
+
+}
+
 ul {
     list-style-type: none;
     text-align: center;
     transition: all 0.22s ease-out;
 }
-  
+
 li {
     height: 25px;
     float: left;
@@ -80,7 +128,7 @@ li {
     padding: 0 20px;
     text-align: center;
 }
-  
+
 li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.678);
@@ -89,136 +137,106 @@ li a {
     font-weight: normal;
     transition: all 0.27s ease-out;
 }
-  
-li a:hover{
-    color: skyblue;
-    background-color: #444;
+
+li a:hover {
+    color: #bcbcbc;
+    background-color: #eeeeee;
     font-weight: bolder;
     transition: all 0.27s ease-in;
     font: 1em/1 Helvetica, Verdana, sans-serif;
 }
-  
+
 li:last-child {
     border-right: none;
 }
-  
-li.active a{
+
+li.active a {
     font-weight: bold;
-    color: skyblue;
+    color: #494949;
     font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
-    background-color: darkslategrey;
+    background-color: #a4a4a4;
 }
-li.return a{
+
+li.return a {
     font-style: normal;
     color: lightgrey;
     font-size: 1em, "Poor Story", cursive;
-    background-color: darkslategray;
+    background-color: #a4a4a4;
     transition: all 1.95s ease-out;
 }
+
 li.return a:hover {
-    font-weight:  bold;
+    font-weight: bold;
     color: white;
     font-size: 1.4em, Helvetica, sans-serif;
     transition: all 1.9s ease-in;
 }
 
 
-.site-title {
-    color: black;
-    text-align: center;
-    align-content: center;
-    margin-top: -1.5em;
-    text-emphasis: uppercase;
-    font-weight: bolder;
-    padding-top: 0.5em;
-}
 
 
-.articlesection{
+
+.articlesection {
     display: flex;
     flex-direction: row;
     padding: 1em;
 }
+
 .article-title {
     width: 100%;
 }
 
-.article-col{
+.article-col {
     width: calc(100%/3);
     flex-direction: column;
     padding: 0.2em;
 }
 
-.article-col > article{
-    
+.article-col>article {
+
     padding: 12px;
     border-radius: 6px;
     background-color: aliceblue;
 }
 
 
-.titlesection{
+.titlesection {
     display: flex;
     flex-direction: row;
     align-content: center;
     padding: 1em;
+    padding-top: -2.5em;
 }
-.title-col{
+
+.title-col {
     width: calc(100%/2);
     flex-direction: column;
+    margin: 0.2em;
+    padding: 5px;
+   
 }
-.subtitle {
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1 0 auto;
-    padding: 1em;
-    margin-top: -1.8em;
-    color: darkslategray;
-    background: lightskyblue;
-    font-stretch: semi-expanded;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 8px;
-}
-.front-page {
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1 0 auto;
-    margin-top: 0.5em;
-    padding-bottom: 1.2em;
-    padding-top: 0.5em;
-    color: darkslategray;
-    background: lightgray;
-    font-stretch: semi-expanded;
-    font-weight: bold;
-    border-radius: 15px;
 
-}
+
 
 .central-align {
     text-align: center;
 }
 
-
-.flexarticle {
-    display: flex;
-    align-items: center;
-}
-
 h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', Sans-Serif;
     text-align: center;
 }
+
 .reviews-title {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 1 0 auto;
     padding: 0.8em;
-    color: darkcyan;
-    background: lightgray;
+    color: white;
+    background: #1976d2;
     font-stretch: semi-expanded;
     font-weight: bold;
-    
+
 }
 
 
@@ -236,7 +254,7 @@ h2 {
     flex-direction: column;
     column-count: 3;
     align-items: center;
-    color: white;    
+    color: white;
 }
 
 .title-x {
@@ -245,7 +263,7 @@ h2 {
 }
 
 .copyright {
-    
+
     font-size: 0.55em;
     align-content: space-between;
     flex-direction: row;
@@ -254,8 +272,8 @@ h2 {
 
 .footer {
     height: 3.5em;
-    background-color: steelblue;
-    color: aliceblue;
+    background-color: #8c8c8c;
+    color: white;
     justify-content: center;
     margin: 0;
     padding: 15px;
