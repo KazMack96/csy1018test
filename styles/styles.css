@@ -259,13 +259,53 @@ li.return a:hover {
 
 .title-col {
     width: calc(100%/2);
+    column-width: auto;
     flex-direction: column;
     margin: 0.2em;
-    padding: 5px;
+    padding: 0.1em;
     border-radius: 0.5em;
     background-color: #eee;
     font-family: 'Roboto', Sans-Serif;
+    text-align: center;
 }
+
+.titlesection {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 1em;
+    padding-top: -2.5em;
+    border-radius: 1em;
+}
+
+.title-col2 {
+    width: auto;
+    margin: 0em;
+    margin-top: -0.75em;
+    padding: 0.1em;
+    border-radius: 0.5em;
+    background-color: #eee;
+    font-family: 'Roboto', Sans-Serif;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.center-text:hover {
+    font-weight: bold;
+}
+
+.linkbar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
 
 @media (max-width:60em) {
     .articlesection {
