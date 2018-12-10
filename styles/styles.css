@@ -246,7 +246,6 @@ li.return a:hover {
     float: right;
     padding: 0.6em;
     padding-bottom: 0.175em;
-    border-radius: 0.8em;
 }
 
 .titlesection {
@@ -335,8 +334,10 @@ h2 {
     flex-wrap: wrap;
     flex: 1 0 auto;
     padding: 0.8em;
+    margin-top: 2em;
     color: white;
-    background: #0077c2;
+    background: #63a4ff;
+    border-color: #0077c2;
     font-stretch: semi-expanded;
     font-weight: bold;
     border-radius: 0.25em;
