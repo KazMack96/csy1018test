@@ -122,6 +122,21 @@ nav {
     text-align: center;
 }
 
+@media (min-width:50em){
+    nav {
+        margin: 20px;
+        display: flex;
+        align-content: space-around;
+        flex-direction: column;
+    }
+}
+@media (max-width:50em){
+    .navbar {
+        visibility: hidden;
+        transition: all 0.01s;
+    }
+} 
+
 ul a:hover {
     text-transform: height 0.8em, width 1.2em;
     transition: all 0.35s ease-in-out;
@@ -221,6 +236,18 @@ li.return a:hover {
     background-color: #eee;
 }
 
+.profile1 {
+    float: left;
+    padding: 0.6em;
+    padding-bottom: 0.175em;
+}
+
+.profile2 {
+    float: right;
+    padding: 0.6em;
+    padding-bottom: 0.175em;
+    border-radius: 0.8em;
+}
 
 .titlesection {
     display: flex;
