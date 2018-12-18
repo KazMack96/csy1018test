@@ -110,7 +110,7 @@ h3 {
 
 .navbar {
     background-color: #8c8c8c;
-
+    border-radius: 0.2em;
 }
 
 nav {
@@ -133,7 +133,7 @@ nav {
 @media (max-width:50em){
     .navbar {
         visibility: hidden;
-        transition: all 0.01s;
+        transition: all 0s;
     }
 } 
 
@@ -147,6 +147,7 @@ ul {
     list-style-type: none;
     text-align: center;
     transition: all 0.22s ease-out;
+    
 }
 
 li {
@@ -255,6 +256,10 @@ li.return a:hover {
     padding: 1em;
     padding-top: -2.5em;
     border-radius: 1em;
+}
+
+.italica {
+    font-style: italic;
 }
 
 .title-col {
