@@ -227,12 +227,13 @@ li.return a:hover {
 .article-col {
     width: calc(100%/3);
     flex-direction: column;
+    height: auto;
     padding: 0.2em;
     font-family: 'Roboto', Sans-Serif;
 }
 
 .article-col>article {
-
+    height: auto;
     padding: 12px;
     border-radius: 6px;
     background-color: #eee;
