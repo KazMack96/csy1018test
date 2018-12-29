@@ -240,14 +240,13 @@ li.return a:hover {
 }
 
 .italica {
-    font-weight: normal; 
-    text-align: center;
-}
-.italica:hover {
     font-style: italic;
     text-align: center;
-    font-weight: bold; 
-    transition: all, 0.3s;
+}
+
+.BOLD {
+    text-align: center;
+    font-weight: bolder;
 }
 
 .profile1 {
