@@ -6,5 +6,5 @@
 #Images sourced from Creative Commons via Google or Bing Image Search.
 
 #Known sources of interest:
-# > animate.css file source below 
-# daneden.me/animate
+#> animate.css file source below 
+#daneden.me/animate
