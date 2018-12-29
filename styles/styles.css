@@ -227,16 +227,27 @@ li.return a:hover {
 .article-col {
     width: calc(100%/3);
     flex-direction: column;
-    height: auto;
+    
     padding: 0.2em;
     font-family: 'Roboto', Sans-Serif;
 }
 
 .article-col>article {
-    height: auto;
+    
     padding: 12px;
     border-radius: 6px;
     background-color: #eee;
+}
+
+.italica {
+    font-weight: normal; 
+    text-align: center;
+}
+.italica:hover {
+    font-style: italic;
+    text-align: center;
+    font-weight: bold; 
+    transition: all, 0.3s;
 }
 
 .profile1 {
