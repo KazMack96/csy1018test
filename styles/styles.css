@@ -42,10 +42,10 @@ h3 {
 
 
 .logo {
-    margin: 1.5em;
-    padding-top: 0.5em;
-    border-radius: 2em;
-    border-top: 0.5em;  
+    margin: 0.7em;
+    width: 65px;
+    height: 65px;
+    border-radius: 2em;  
 }
 
 .websiteheader {
@@ -260,10 +260,8 @@ li.return a:hover {
 .profile2 {
     float: right;
     padding: 0.2em;
-    padding-top: 2em; 
+    padding-top: 0.5em; 
     padding-left: 0.3em;
-    padding-bottom: 1em;
-    transform: rotate(90deg);
 }
 
 .titlesection {
