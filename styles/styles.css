@@ -310,11 +310,30 @@ li.return a:target {
 
 .centervid {
     width: 90%;
+    padding-top: 0.8em;
+    padding-bottom: 0.15em;
 }
 .centervid2 {
     float: left;
     width: 30%;
     padding: 0.8em;
+}
+.centervid3 {
+    float: right;
+    width: 60%;
+    padding: 0.6em;
+    padding-bottom: 0.1em;
+}
+
+.quote {
+    font-weight: bold;
+    font-size: 1.1em; 
+    text-align: center;
+}
+
+.quote:hover {
+    font-style: italic;
+    font-weight: normal;
 }
 
 .titlesection {
@@ -376,7 +395,8 @@ li.return a:target {
     }
 
     .centervid {
-        width: 100%;
+        width: 80%;
+        padding: 0.5em; 
     }
 
     .article-col {
