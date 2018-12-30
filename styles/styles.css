@@ -124,6 +124,7 @@ nav {
     text-align: center;
 }
 
+
 @media (min-width:50em){
     nav {
         margin: 20px;
@@ -140,7 +141,7 @@ nav {
 } 
 
 ul a:hover {
-    text-transform: capitalize;
+    text-transform: height 1em, width 1em;
     text-shadow: #000; 
     transition: all 0.35s ease-in-out;
 
@@ -175,6 +176,7 @@ li a:hover {
     color: #000;
     background-color: #80d6ff;
     font-weight: bolder;
+    width: 1.4em;
     transition: all 0.27s ease-in;
     font: 1em/1 Helvetica, Verdana, sans-serif;
 }
@@ -207,7 +209,13 @@ li.return a {
 li.return a:hover {
     font-weight: bold;
     color: white;
-    font-size: 1.4em, Helvetica, sans-serif;
+    font-size: 1.4em, "Poor Story", cursive;
+    transition: all 1.9s ease-in;
+}
+li.return a:target {
+    font-weight: bold;
+    color: white;
+    font-size: 1.4em, "Poor Story", cursive;
     transition: all 1.9s ease-in;
 }
 
@@ -300,6 +308,15 @@ li.return a:hover {
     text-align: center;
 }
 
+.centervid {
+    width: 90%;
+}
+.centervid2 {
+    float: left;
+    width: 30%;
+    padding: 0.8em;
+}
+
 .titlesection {
     display: flex;
     flex-direction: row;
@@ -358,6 +375,10 @@ li.return a:hover {
 
     }
 
+    .centervid {
+        width: 100%;
+    }
+
     .article-col {
         width: calc(100%/2);
         padding: 0.1em;
@@ -383,6 +404,16 @@ li.return a:hover {
     .title-col {
         width: auto;
     }
+
+    .centervid {
+        width: 100%;
+        align-content: center;
+        padding: 1em;
+    }
+    /* .centervid2 {
+        height: 512px;
+        width: 100%;
+    } */
 
     .article-col {
         width: auto;
