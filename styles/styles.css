@@ -52,7 +52,7 @@ h3 {
     background-color: #0077c2;
     font-family: 'Saira Extra Condensed', sans-serif;
     height: 5em;
-    margin-top: -12em;
+    margin-top: 0em;
     border-radius: 8px;
 }
 
@@ -60,7 +60,7 @@ h3 {
     color: #FFF;
     text-align: center;
     align-content: center;
-    margin-top: -4em;
+    margin-top: -3em;
     font-size: 1.3em;
     font-weight: bold;
     margin-left: 0.5em;
@@ -72,7 +72,7 @@ h3 {
         color: #FFF;
         text-align: center;
         align-content: center;
-        margin-top: -3.6em;
+        margin-top: -2.6em;
         font-size: 2.2em;
         font-weight: normal;
         margin-left: 0.5em;
@@ -342,6 +342,13 @@ li.return a:target {
     font-weight: bold;
     font-size: 1.1em; 
     text-align: center;
+}
+
+@media (min-width: 80em){
+    .quote {
+        font-size: 1em;
+        font-weight: bolder;
+    }
 }
 
 .quote:hover {
