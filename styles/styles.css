@@ -220,7 +220,7 @@ li.return a:target {
 }
 
 
-@media (max-width:60em) {
+@media (max-width:80em) {
     .favimenu {
         visibility: visible;
         width: 2em;
@@ -231,7 +231,7 @@ li.return a:target {
     .mobile-menu {
         visibility: visible;
         width: 3em;
-        
+
     }
 }
 
