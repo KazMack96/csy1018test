@@ -42,10 +42,11 @@ h3 {
 
 
 .logo {
-    margin: 0.8em;
-    width: 65px;
+    margin: 0.4em;
+    margin-top:0.65em;
+    width: 70px;
     height: 65px;
-    border-radius: 2em;  
+    border-radius: 0.1em; 
 }
 
 .websiteheader {
@@ -69,16 +70,34 @@ h3 {
 
 @media (max-width:800px) {
     .site-title {
-        margin-top: -2.3em;
+        margin-top: -2em;
         font-size: 1.75em;
         align-content: center;
+        margin-left: 0;
     }
+
+}
+
+@media (max-width:1050px) {
+    .site-title {
+        margin-top: -1.75em;
+        font-size: 2.5em;
+        align-content: center;
+        margin-left: 0;
+    }
+    .navbar {
+        visibility: hidden;
+    }
+    .linkbar {visibility: hidden;}
 
 }
 
 @media (min-width:1110px) {
     .site-title {
+        
         letter-spacing: 0.225em;
+        align-items: center;
+        margin-left: 0em;
     }
 }
 
@@ -147,11 +166,14 @@ nav {
         align-content: space-around;
         flex-direction: column;
     }
+    
 }
 @media (max-width:50em){
     .navbar {
         visibility: hidden;
-        transition: all 0s;
+    }
+    nav { 
+        visibility: hidden;
     }
 } 
 
