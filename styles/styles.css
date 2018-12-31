@@ -106,7 +106,7 @@ h3 {
         color: #FFF;
         text-align: center;
         align-content: center;
-        margin-top: -1.2em;
+        margin-top: -1.45em;
         font-size: 4.2em;
         font-weight: normal;
         margin-left: 0.5em;
@@ -172,9 +172,11 @@ nav {
     .navbar {
         visibility: hidden;
     }
-    nav { 
+    nav ul li a { 
         visibility: hidden;
     }
+
+    
 } 
 
 ul a:hover {
@@ -257,7 +259,7 @@ li.return a:target {
 }
 
 
-@media (max-width:80em) {
+/* @media (max-width:80em) {
     .favimenu {
         visibility: visible;
         width: 2em;
@@ -270,7 +272,7 @@ li.return a:target {
         width: 3em;
 
     }
-}
+} */
 
 
 .articlesection {
