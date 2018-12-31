@@ -391,6 +391,8 @@ li.return a:target {
     margin: 0em;
     margin-top: -0.75em;
     padding: 0.1em;
+    margin-left: 5em;
+    margin-right: 5em;
     border-radius: 0.5em;
     background-color: #eee;
     font-family: 'Roboto', Sans-Serif;
