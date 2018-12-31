@@ -398,6 +398,25 @@ li.return a:target {
     padding-bottom: 0.15em;
 }
 
+.centerimg1 {
+    float: right;
+    width: 10%;
+    padding: 0.1em;
+    padding-bottom: 0em;
+}
+.centerimg2 {
+    float: left;
+    width: 12.5%;
+    padding: 0.3em;
+    padding-bottom: 0em;
+}
+.centerimg3 {
+    float: left;
+    width: 22.5%;
+    padding: 0.45em;
+    padding-bottom: 0.1em;
+}
+
 .quote {
     font-weight: bold;
     font-size: 1.1em; 
