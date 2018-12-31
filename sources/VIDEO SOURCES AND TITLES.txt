@@ -1,0 +1,35 @@
+
+Flexbox layouts for beginners - Web design tutorial
+
+https://www.youtube.com/watch?v=KIktkACny9w
+
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/KIktkACny9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+------------------------------------------------------------------------------------------
+
+CSS Layout Tutorial - 20 - Media queries
+
+https://www.youtube.com/watch?v=3SFRSrPDwiw
+
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/3SFRSrPDwiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+------------------------------------------------------------------------------------------
+
+Embed a YouTube Video in HTML and Make it Responsive (CSS included)
+
+https://www.youtube.com/watch?v=9YffrCViTVk
+
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+------------------------------------------------------------------------------------------
+
+
+Responsive Menu Navigation Using Only HTML & CSS
+
+https://www.youtube.com/watch?v=cQ6YQ8K5MRw
+
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/cQ6YQ8K5MRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
