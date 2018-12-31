@@ -543,24 +543,21 @@ h2 {
 }
 
 .ytVid {
+    position: relative;
+    width: 100%;
     padding-bottom: 56.25%;
     height: 0;
-    width: 100%;
 }
 
-.ytVid iframe {
-    position: relative;
+ .ytVid iframe{
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+}  
 
-@media (min-width:75em) {
-    .ytVid {
-        height: 56.55%;
-    }
-}
+
 
 .title-x {
     color: white;
