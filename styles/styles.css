@@ -406,7 +406,7 @@ li.return a:target {
 
 .centerimg1 {
     float: right;
-    width: 10%;
+    width: 12.5%;
     padding: 0.1em;
     padding-bottom: 0em;
 }
@@ -423,6 +423,47 @@ li.return a:target {
     padding-bottom: 0.1em;
 }
 
+
+
+.hoverBox1{
+    float: right;
+    background-color: #a4a4a4;
+    height: 1.5em;
+    width: 10em;
+    
+    overflow: hidden;
+    padding: 0.2em;
+    padding-top: 0.15em;
+    margin: 0.2em;
+    margin-left: 0.4em;
+    transition: all 0.8s ease-in;
+}
+
+.hoverBox1:hover {
+    height: auto;
+    overflow:visible;
+    padding-bottom: 0em;
+    transition: all 0.8s ease-out;
+}
+.hoverBox2{
+    float: left;
+    
+    background-color: #a4a4a4;
+    height: 1.5em;
+    width: 10em;
+    overflow: hidden;
+    padding: 0.2em;
+    padding-top: 0.15em;
+    margin: 0.2em;
+    margin-right: 0.4em;
+    transition: all 0.8s ease-in;
+}
+
+.hoverBox2:hover {
+    height: auto;
+    overflow:visible;
+    transition: all 0.8s ease-out;
+}
 .quote {
     font-weight: bold;
     font-size: 1.1em; 
