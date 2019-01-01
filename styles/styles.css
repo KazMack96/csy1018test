@@ -398,6 +398,12 @@ li.return a:target {
     padding-bottom: 0.15em;
 }
 
+.centerimg {
+    width: 60%;
+    padding-top: 0.6em;
+    padding-bottom: 0.225em;
+}
+
 .centerimg1 {
     float: right;
     width: 10%;
