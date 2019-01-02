@@ -54,6 +54,14 @@ h4 {
     margin-top: 1.5em;
 }
 
+.logo {
+    margin: 0.4em;
+    margin-top:0.65em;
+    width: 70px;
+    height: 65px;
+}
+
+
 nav {
     float: right;
 
@@ -113,6 +121,7 @@ li.active {
     }
     .navmenutog + a, .sitenav {
         display: none;
+        
     }
     .navmenutog {
         display: block;
@@ -148,13 +157,7 @@ li.active {
 
 
 
-.logo {
-    margin: 0.4em;
-    margin-top:0.65em;
-    width: 70px;
-    height: 65px;
-    border-radius: 0.1em; 
-}
+
 
 .websiteheader {
     background-color: #0077c2;
@@ -175,13 +178,15 @@ li.active {
     letter-spacing: 0em;
 }
 
-@media (max-width:70em) {
+@media (max-width:75em) {
     .site-title {
         margin-top: -2em;
+        margin-left: 4em;
         font-size: 2em;
         text-align: center;
         align-content: center;
-        margin-left: 0;
+        
+        
     }
     
     
@@ -304,17 +309,7 @@ li.active {
     font-style: italic;
 }
 
-.title-col {
-    width: calc(100%/2);
-    column-width: auto;
-    flex-direction: column;
-    margin: 0.2em;
-    padding: 0.1em;
-    border-radius: 0.5em;
-    background-color: #eee;
-    font-family: 'Roboto', Sans-Serif;
-    text-align: center;
-}
+
 
 .floatR {
     float: right;
@@ -498,17 +493,32 @@ li.active {
     border-radius: 1em;
 }
 
-.title-col2 {
-    width: auto;
-    margin: 0em;
-    margin-top: -0.75em;
+.title-col {
+    width: calc(100%/2);
+    column-width: auto;
+    flex-direction: column;
+    margin: 0.2em;
     padding: 0.1em;
-    margin-left: 5em;
-    margin-right: 5em;
     border-radius: 0.5em;
     background-color: #eee;
     font-family: 'Roboto', Sans-Serif;
     text-align: center;
+}
+
+.title-col2 {
+    width: auto;
+    margin: 0.2em;
+    padding: 0.1em;
+    border-radius: 0.5em;
+    background-color: #eee;
+    font-family: 'Roboto', Sans-Serif;
+    text-align: center;
+}
+
+@media (max-width: 75em){
+    .titlecol {
+        width: 5rem;
+    }
 }
 
 .center-text {
