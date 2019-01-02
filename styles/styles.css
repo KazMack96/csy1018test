@@ -90,13 +90,43 @@ nav a {
     display: block;
     padding: 0.2em 1.1em;
     color: white;
-    text-transform: capitalize;
     text-decoration: none;
 }
 
-ul {
-    transition: all 0.22s ease-out;
+nav a:hover{
+    color: #000;
+    background-color: #63a4ff;
+    font-weight: bolder;
+    transition: all 0.27s ease-in;
+    border-radius: 0.2em;
 }
+
+li.active {
+    background-color: #aeaeae;
+    color: #000;
+}
+
+@media (max-width:50em){
+    nav ul li {
+        width: 100%;
+
+    }
+    .navmenutog + a, .sitenav {
+        display: none;
+    }
+    .navmenutog {
+        display: block;
+        background-color: #8c8c8c;
+        padding: 0.1em;
+        color: #FFF;
+        cursor: pointer;
+
+    }
+    .navmenutog:hover {
+        background-color: #a4a4a4;
+    }
+}
+
 
 
 
@@ -115,9 +145,6 @@ ul {
     
     
 }
-
-
-
 
 
 
@@ -148,7 +175,7 @@ ul {
     letter-spacing: 0em;
 }
 
-@media (max-width:50em) {
+@media (max-width:70em) {
     .site-title {
         margin-top: -2em;
         font-size: 2em;
@@ -156,9 +183,7 @@ ul {
         align-content: center;
         margin-left: 0;
     }
-    .navbar nav ul li a {
-        visibility: hidden;
-    }
+    
     
 }
 
@@ -184,7 +209,7 @@ ul {
     padding-bottom: 1.2em;
     padding-top: 0.5em;
     color: #000;
-    background: #a4a4a4;
+    background: #aeaeae;
     letter-spacing: 0.5em;
     text-transform: uppercase;
     font-weight: bold;
@@ -441,6 +466,21 @@ ul {
     .quote {
         font-size: 1em;
         font-weight: bolder;
+    }
+}
+@media (max-width: 90em){
+    .hoverBox1 {
+        float: none;
+        width: 80%;
+        height: 2em;
+        align-self: center;
+        border-radius: 0.35em;
+    }
+    .hoverBox2 {
+        float: none;
+        width: 80%;
+        align-self: center;
+        border-radius: 0.35em;
     }
 }
 
