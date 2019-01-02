@@ -74,31 +74,6 @@ h4 {
     letter-spacing: 0.1em;
 }
 
-/*the code below is edited*/
-.menuicon {
-    visibility: hidden;
-    float: right;
-    width: 2.2em;
-    padding-top: 1.5em;
-    padding-right: 1em;
-    margin-left: -1em;
-}
-
-.menuicon a{
-    color: #FFF
-    text-transform: uppercase;
-    padding: 0 0.2em;
-}
-
-@media (max-width:800px) {
-    .menuicon {
-        visibility: visible;
-        float: right;
-    }
-    .responsiveMobileMenu {
-        visibility: visible;
-    }
-}
 
 
 
@@ -121,10 +96,7 @@ h4 {
         align-content: center;
         margin-left: 0;
     }
-    .navbar {
-        visibility: hidden;
-    }
-    .linkbar {visibility: hidden;}
+    
 
 }
 
@@ -204,16 +176,6 @@ nav {
     }
     
 }
-@media (max-width:50em){
-    .navbar {
-        visibility: hidden;
-    }
-    nav ul li a { 
-        visibility: hidden;
-    }
-
-    
-} 
 
 ul a:hover {
     text-transform: height 1em, width 1em;
@@ -233,10 +195,14 @@ li {
     height: 25px;
     float: left;
     margin-right: 10px;
-    border-right: 4px solid #eee;
+    /* border-right: 4px solid #eee; */
     padding: 0 20px;
     text-align: center;
 }
+
+/* li:last-child {
+    border-right: none;
+} */
 
 li a {
     text-decoration: none;
@@ -260,10 +226,6 @@ li.active a:hover {
     color: #000;
     background-color: #80d6ff;
 
-}
-
-li:last-child {
-    border-right: none;
 }
 
 li.active a {
@@ -295,20 +257,8 @@ li.return a:target {
 }
 
 
-/* @media (max-width:80em) {
-    .favimenu {
-        visibility: visible;
-        width: 2em;
-        height: 2em;
 
-    }
 
-    .mobile-menu {
-        visibility: visible;
-        width: 3em;
-
-    }
-} */
 
 
 .articlesection {
@@ -650,10 +600,7 @@ li.return a:target {
         align-content: center;
         padding: 1em;
     }
-    /* .centervid2 {
-        height: 512px;
-        width: 100%;
-    } */
+   
 
     .article-col {
         width: auto;
