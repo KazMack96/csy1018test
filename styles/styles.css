@@ -39,6 +39,12 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    text-align: left;
+    font-weight: bold;  
+    padding-left: 0.6em; 
+    padding-bottom: 0em;
+}
 
 
 .logo {
@@ -67,6 +73,36 @@ h3 {
     margin-left: 1em;
     letter-spacing: 0.1em;
 }
+
+/*the code below is edited*/
+.menuicon {
+    visibility: hidden;
+    float: right;
+    width: 2.2em;
+    padding-top: 1.5em;
+    padding-right: 1em;
+    margin-left: -1em;
+}
+
+.menuicon a{
+    color: #FFF
+    text-transform: uppercase;
+    padding: 0 0.2em;
+}
+
+@media (max-width:800px) {
+    .menuicon {
+        visibility: visible;
+        float: right;
+    }
+    .responsiveMobileMenu {
+        visibility: visible;
+    }
+}
+
+
+
+
 
 @media (max-width:800px) {
     .site-title {
@@ -289,7 +325,6 @@ li.return a:target {
 .article-col {
     width: calc(100%/3);
     flex-direction: column;
-    
     padding: 0.2em;
     font-family: 'Roboto', Sans-Serif;
 }
@@ -299,6 +334,7 @@ li.return a:target {
     padding: 12px;
     border-radius: 6px;
     background-color: #eee;
+    
 }
 
 .italica {
@@ -398,8 +434,13 @@ li.return a:target {
     padding-bottom: 0.15em;
 }
 
-.centerimg {
+.centerimage {
     width: 60%;
+    padding-top: 0.6em;
+    padding-bottom: 0.225em;
+}
+.centerimage1 {
+    width: 68%;
     padding-top: 0.6em;
     padding-bottom: 0.225em;
 }
@@ -422,8 +463,38 @@ li.return a:target {
     padding: 0.45em;
     padding-bottom: 0.1em;
 }
+.imghover {
+    float: right;
+    width: 55%;
+    padding: 0.3em;
+    padding-bottom: 0.1em;
+}
+.hoverimg1 {
+    float: right;
+    width: 25%;
+    padding: 0.1em;
+    padding-bottom: 0em;
+}
+.hoverimg2 {
+    float: left;
+    width: 50%;
+    padding: 0.3em;
+    padding-bottom: 0em;
+}
+.hoverimg3 {
+    float: left;
+    width: 20%;
+    padding-top: 0;
+    padding-bottom: 0.1em;
+}
 
 
+.flR { 
+    float:right;
+    display: flex;
+    flex-direction: column;
+
+}
 
 .hoverBox1{
     float: right;
@@ -436,14 +507,13 @@ li.return a:target {
     padding-top: 0.15em;
     margin: 0.2em;
     margin-left: 0.4em;
-    transition: all 0.8s ease-in;
 }
 
 .hoverBox1:hover {
     height: auto;
     overflow:visible;
     padding-bottom: 0em;
-    transition: all 0.8s ease-out;
+    transition: all 0.8s ease-in-out;
 }
 .hoverBox2{
     float: left;
@@ -456,13 +526,15 @@ li.return a:target {
     padding-top: 0.15em;
     margin: 0.2em;
     margin-right: 0.4em;
-    transition: all 0.8s ease-in;
 }
 
 .hoverBox2:hover {
     height: auto;
     overflow:visible;
-    transition: all 0.8s ease-out;
+    transition: all 0.8s ease-in-out;
+}
+.centralise {
+    text-align: center;
 }
 .quote {
     font-weight: bold;
