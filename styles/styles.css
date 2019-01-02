@@ -127,7 +127,7 @@ a {
     z-index: 500;
 }
 
-@media (max-width:50em){
+@media (max-width:75em){
     nav ul li {
         width: 100%;
 
@@ -195,7 +195,7 @@ a {
         margin-left: 0;
     }
     
-
+}
 .websiteheader {
     background-color: #0077c2;
     font-family: 'Saira Extra Condensed', sans-serif;
@@ -845,7 +845,6 @@ h2 {
     text-align: center;
     background-color: #8c8c8c;
     color: white;
-    
     margin: 0;
     border: 0;
     padding-top: 1em;
