@@ -58,7 +58,7 @@ h4 {
     margin: 0.4em;
     margin-top:0.65em;
     width: 70px;
-    height: 65px;
+    height: 70px;
 }
 
 
@@ -113,18 +113,18 @@ nav a:hover{
     color: #000;
     background-color: #63a4ff;
     font-weight: bolder;
-    transition: all 0.27s ease-in;
+    /* transition: all 0.27s ease-in; */
     border-radius: 0.2em;
 }
 
 li.active {
     background-color: #aeaeae;
     color: #000;
-    z-index: 500;
+    z-index: 800;
 }
 
-a {
-    z-index: 500;
+nav ul li a {
+    z-index: 800;
 }
 
 @media (max-width:75em){
@@ -161,16 +161,9 @@ a {
     } */
     [id^=dropdown]:checked + ul {
         display: block;
-        z-index: 500;
+        z-index: 800;
     }
 }
-
-
-
-
-
-
-
 
 @media (min-width:75em){
     nav {
@@ -183,6 +176,111 @@ a {
     
     
 }
+
+.navbar {
+    background-color: #8c8c8c;
+    border-radius: 0.2em;
+}
+
+nav {
+    float: right;
+    margin: 25px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+@media (min-width:50em){
+    nav {
+        margin: 20px;
+        display: flex;
+        align-content: space-around;
+        flex-direction: column;
+    }
+    
+}
+
+ul a:hover {
+    text-transform: height 1em, width 1em;
+    text-shadow: #000; 
+    transition: all 0.35s ease-in-out;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    transition: all 0.22s ease-out;
+    
+}
+
+li {
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+    /* border-right: 4px solid #eee; */
+    /* padding: 0 20px; */
+    text-align: center;
+}
+
+/* li:last-child {
+    border-right: none;
+} */
+
+li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.678);
+    font: 1em/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    transition: all 0.27s ease-out;
+}
+
+li a:hover {
+    color: #000;
+    background-color: #80d6ff;
+    font-weight: bolder;
+    /* width: 1.4em; */
+    transition: all 0.27s ease-in;
+    font: 1em/1 Helvetica, Verdana, sans-serif;
+}
+
+li.active a:hover {
+    color: #000;
+    background-color: #80d6ff;
+
+}
+
+li.active a {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
+    background-color: #eee;
+}
+
+li.return a {
+    font-style: normal;
+    color: #80d6ff;
+    font-size: 1em, "Poor Story", cursive;
+    background-color: #8c8c8c;
+    transition: all 1.95s ease-out;
+}
+
+li.return a:hover {
+    font-weight: bold;
+    color: white;
+    font-size: 1.4em, "Poor Story", cursive;
+    transition: all 1.9s ease-in;
+}
+li.return a:target {
+    font-weight: bold;
+    color: white;
+    font-size: 1.4em, "Poor Story", cursive;
+    transition: all 1.9s ease-in;
+}
+
 
 
 
@@ -236,7 +334,7 @@ a {
         margin-top: -1.45em;
         font-size: 4em;
         font-weight: normal;
-        margin-left: 0.5em;
+        /* margin-left: 0.5em; */
         letter-spacing: 0.05em;
         transition: 0.2s ease-in;
     }
@@ -269,111 +367,6 @@ a {
 
     text-align: center;
     border-radius: 8px;
-}
-
-
-.navbar {
-    background-color: #8c8c8c;
-    border-radius: 0.2em;
-}
-
-nav {
-    float: right;
-    margin: 25px;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    text-align: center;
-}
-
-
-@media (min-width:50em){
-    nav {
-        margin: 20px;
-        display: flex;
-        align-content: space-around;
-        flex-direction: column;
-    }
-    
-}
-
-ul a:hover {
-    text-transform: height 1em, width 1em;
-    text-shadow: #000; 
-    transition: all 0.35s ease-in-out;
-
-}
-
-ul {
-    list-style-type: none;
-    text-align: center;
-    transition: all 0.22s ease-out;
-    
-}
-
-li {
-    height: 25px;
-    float: left;
-    margin-right: 10px;
-    /* border-right: 4px solid #eee; */
-    padding: 0 20px;
-    text-align: center;
-}
-
-/* li:last-child {
-    border-right: none;
-} */
-
-li a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.678);
-    font: 1em/1 Helvetica, Verdana, sans-serif;
-    text-transform: uppercase;
-    font-weight: normal;
-    transition: all 0.27s ease-out;
-}
-
-li a:hover {
-    color: #000;
-    background-color: #80d6ff;
-    font-weight: bolder;
-    width: 1.4em;
-    transition: all 0.27s ease-in;
-    font: 1em/1 Helvetica, Verdana, sans-serif;
-}
-
-li.active a:hover {
-    color: #000;
-    background-color: #80d6ff;
-
-}
-
-li.active a {
-    font-weight: bold;
-    color: #000;
-    font-size: 1.4em/1, Verdana, Helvetica, sans-serif;
-    background-color: #eee;
-}
-
-li.return a {
-    font-style: normal;
-    color: #80d6ff;
-    font-size: 1em, "Poor Story", cursive;
-    background-color: #8c8c8c;
-    transition: all 1.95s ease-out;
-}
-
-li.return a:hover {
-    font-weight: bold;
-    color: white;
-    font-size: 1.4em, "Poor Story", cursive;
-    transition: all 1.9s ease-in;
-}
-li.return a:target {
-    font-weight: bold;
-    color: white;
-    font-size: 1.4em, "Poor Story", cursive;
-    transition: all 1.9s ease-in;
 }
 
 
